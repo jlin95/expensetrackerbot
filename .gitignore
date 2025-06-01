@@ -1,2 +1,25 @@
-.env
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Google credentials
 credentials.json
+
+# dotenv environment variables
+.env
+
+# VS Code settings
+.vscode/
+
+# MacOS metadata
+.DS_Store
+
+# Heroku build files
+*.log
